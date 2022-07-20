@@ -1,5 +1,6 @@
-#tutorial installasi
-  ``git clone ``
-  ``npm install``
-#RUNNING
+# tutorial installasi
+  ``git clone``
+  <br>
+    ``npm install``
+# RUNNING
   ``npm start``
