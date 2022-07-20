@@ -4,11 +4,11 @@ Requirements
 2. NodeJs
 3. Terminal (Bawaan Vscode/ windows terminal/git bash)
 
-## tutorial installasi
+## Tutorial installasi
   ``git clone https://github.com/Taufik-H/besmart-project.git``
   <br>
     ``npm install``
-## RUNNING
+## Run Project
   ``npm start``
   
   Sinau kerja Tim lewat git
