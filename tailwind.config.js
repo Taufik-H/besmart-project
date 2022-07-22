@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'bounce-slow': 'bounce 3s linear infinite',
+        'pulse-slow': 'pulse 3s linear infinite',
+      }
     },
   },
   plugins: [],
