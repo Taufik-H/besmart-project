@@ -1,7 +1,10 @@
+
 import Heroimage from "./images/herobg.png"
 import Blob from "./images/blob.png"
-import Bgicon from "./images/bg.png"
+
+
 export const Hero = () => {
+
   return (
     <>
       <div className="hidden lg:block lg:absolute lg:top-0 opacity-80 -z-10">
@@ -26,7 +29,7 @@ export const Hero = () => {
                   KONSULTASI KESEHATAN
                 </p>
               </div>
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl sm:leading-none">
+              <h2 data-aos="flip-up"  className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl sm:leading-none">
                 Kenali gejala <span className="text-red-400 font-bold mr-2"> Hepatitis</span>
                 <br className="hidden md:block" />
                 {''}
