@@ -14,7 +14,7 @@ export const About = () => {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3  ">
                         <div>
-                            <div className=" text-center lg:text-left mt-5 text-gray-700 lg:ml-12 px-12 lg:px-0">
+                            <div className=" text-center lg:text-left mt-5 text-gray-700 lg:ml-12 px-5 md:px-12 lg:px-0">
                                 Hepatitis adalah peradangan pada hati atau liver. Kondisi ini
                                 bisa disebabkan oleh berbagai hal, mulai dari infeksi virus, kebiasaan
                                 mengonsumsi alkohol, penggunaan obat-obatan tertentu, penyakit autoimun,
