@@ -53,10 +53,9 @@ export const List = ()=>{
                       </div>
                       </div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="">
+                    <Disclosure.Panel className=" mt-3 px-14">
                       <div className="relative">
-                      If you're unhappy with your purchase for any reason, email us
-                      within 90 days and we'll refund you in full, no questions asked.
+                      Jenis ini umumnya ditularkan melalui cairan tubuh dari pengidap jenis ini, seperti darah, cairan Miss V, dan air mani.
                       </div>
                     </Disclosure.Panel>
                   </>
@@ -105,8 +104,8 @@ export const List = ()=>{
                       </div>
                       </div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="">
-                      <div className="relative">
+                    <Disclosure.Panel className="mt-3 px-14">
+                      <div className="">
                       If you're unhappy with your purchase for any reason, email us
                       within 90 days and we'll refund you in full, no questions asked.
                       </div>
@@ -157,7 +156,7 @@ export const List = ()=>{
                       </div>
                       </div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="">
+                    <Disclosure.Panel className="mt-3 px-14">
                       <div className="relative">
                       If you're unhappy with your purchase for any reason, email us
                       within 90 days and we'll refund you in full, no questions asked.
@@ -209,7 +208,7 @@ export const List = ()=>{
                       </div>
                       </div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="">
+                    <Disclosure.Panel className="mt-3 px-14">
                       <div className="relative">
                       If you're unhappy with your purchase for any reason, email us
                       within 90 days and we'll refund you in full, no questions asked.
@@ -262,7 +261,7 @@ export const List = ()=>{
                       </div>
                       </div>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="">
+                    <Disclosure.Panel className="mt-3 px-14">
                       <div className="relative">
                       If you're unhappy with your purchase for any reason, email us
                       within 90 days and we'll refund you in full, no questions asked.
