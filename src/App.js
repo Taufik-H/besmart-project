@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Sponsor from './components/Sponsor';
 import List from './components/List';
 import Crd from './components/Card';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About></About>
       <List></List>
       <Crd></Crd>
+      <Carousel></Carousel>
     </>
   );
 }
