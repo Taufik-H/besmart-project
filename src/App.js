@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero'
 import Sponsor from './components/Sponsor';
 import List from './components/List';
+import Crd from './components/Card';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Hero></Hero>
       <Sponsor></Sponsor>
       <About></About>
-<List></List>
+      <List></List>
+      <Crd></Crd>
     </>
   );
 }
