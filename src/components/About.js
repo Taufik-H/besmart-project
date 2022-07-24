@@ -1,62 +1,49 @@
-import { useEffect } from "react";
-import Hati from "./images/1.png"
-import Aos from "aos";
-import "aos/dist/aos.css"
-
+import Hati from './images/hati.png'
 export const About = () => {
-    useEffect(() => {
-        Aos.init({duration:1000});
-      Aos.refresh()
-    },[])
     return (
-        <>
-  
-
-            <div className="">
-                <div className="text-center lg:text-left">
-                    <div  className="text-xs text-red-400 font-bold uppercase tracking-wide px-12">
-                        about
-                    </div>
-                    <div  className="text-3xl text-gray-700 font-bold px-12">
-                        Apa Itu Hepatitis?
-                    </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3  ">
-                        <div>
-                            <div  className=" text-center lg:text-left mt-5 text-gray-700 lg:ml-12 px-5 md:px-12 lg:px-0">
-                                Hepatitis adalah peradangan pada hati atau liver. Kondisi ini
-                                bisa disebabkan oleh berbagai hal, mulai dari infeksi virus, kebiasaan
-                                mengonsumsi alkohol, penggunaan obat-obatan tertentu, penyakit autoimun,
-                                dan infeksi cacing hati. Jika disebabkan oleh infeksi virus, hepatitis bisa
-                                menular ke orang lain
-                            </div>
-                            <div  className="flex mt-7 w-full text-center lg:mb-7  justify-center lg:py-2 lg:w-fit lg:ml-12 px-12  lg:bg-red-200 rounded-lg">
-                                <span className="text-red-600 font-semibold text-md mr-2">Lebih Banyak</span>
-                                <div className="ml-1 text-red-600">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-span-2 " >
-                            <div className="p-5 md:px-12 lg:p-0">
-                                 <div className="mt-5  py-10 h-full bg-blue-300 rounded-full md:rounded-xl md:-mt-10 lg:rounded-l-full lg:w-3/4 lg:float-right">
-                                <div className="flex justify-center  ">
-                                    <img src={Hati} alt="Hati"data-aos="fade-up" className="w-3/6 mx-auto my-auto animate-pulse-slow " />
-                                    <div className=" ">
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                           
-
-                        </div>
-                    </div>
-
-                </div>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl   lg:py-20">
+        <div className="grid gap-10 md:grid-cols-2">
+          <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+            <div className="text-xs font-bold text-red-400 uppercase tracking-widest p-2">about</div>
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl sm:leading-none">
+                Apa itu Hepatitis?
+              </h2>
+              <p className="text-base text-gray-700 md:text-lg">
+             <span className="text-red-400">Hepatitis</span>  merupakan penyakit yang ditandai dengan peradangan pada organ hati. 
+              Kondisi ini bisa terjadi karena infeksi virus, kebiasaan minum alkohol, paparan zat 
+              beracun atau obat-obatan tertentu. 
+              </p>
+              <p className="text-base text-gray-700 md:text-lg mt-4">
+              Berdasarkan sifatnya hepatitis dibedakan menjadi dua yaitu 
+              hepatitis <span className="text-red-400">akut</span> dan <span className="text-red-400">kronis</span>, keduanya sama-sama dapat menggangu 
+              berbagai fungsi metabolisme.
+              </p>
             </div>
-        </>
+            <div>
+              <a
+                href="/"
+                aria-label=""
+                className="inline-flex items-center bg-red-400 rounded-full py-2 px-6 hover:bg-gray-200  font-semibold transition-colors duration-200 text-white hover:text-red-600"
+              >
+                Lebih lanjut 
+                <svg
+                  className="inline-block w-3 ml-2"
+                  fill="currentColor"
+                  viewBox="0 0 12 12"
+                >
+                  <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div className="flex items-center justify-center rounded-full  -mx-4 lg:pl-8 lg:bg-blue-300">
+            <div className="flex-col items-center px-2">
+             <img src={Hati} alt="" className=' mx-auto w-8/12 md:w-9/12 lg:w-1/2'/>
+            </div>
+          </div>
+        </div>
+      </div>
     );
-};
-export default About
+  };
+  export default About
