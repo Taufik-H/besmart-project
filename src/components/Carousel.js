@@ -15,7 +15,7 @@ export const Carousel = ()=>{
         <p className=" text-center w-9/12 lg:w-4/12">Berikut beberapa gejala umum yang muncul pada penderita hepatitis simak baik - baik.</p>
     </div>
 
-        <div className="container mx-auto px-48 mt-20">
+        <div className="container mx-auto px-8 lg:px-48 mt-20">
             <div className="">
             <Rerousel itemRef={ref} stop={int} className="w-3/12">
                 <img ref={ref} src={r1} alt="" />
