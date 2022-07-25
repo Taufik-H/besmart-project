@@ -50,7 +50,7 @@ export const Navbar = () => {
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Consultation
+              Subscribe
             </a>
           </li>
           <li>
