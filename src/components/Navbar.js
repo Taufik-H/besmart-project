@@ -15,10 +15,10 @@ export const Navbar = () => {
           class="inline-flex items-center"
         >
           <div className="text-red-400 ">
-           <img src={Logo} alt="" className="w-8/12" />
+            <img src={Logo} alt="" className="w-8/12" />
           </div>
           <span class="text-xl tracking-wide">
-          <span className="font-semibold text-red-400 ">Be</span>Healthy
+            <span className="font-semibold text-red-400 ">Be</span>Healthy
           </span>
         </a>
         <ul class=" items-center hidden space-x-8 lg:flex">
@@ -98,12 +98,12 @@ export const Navbar = () => {
                       title="contactus"
                       class="inline-flex items-center"
                     >
-                     <div className="text-red-400 ">
-           <img src={Logo} alt="" className="w-8/12" />
-          </div>
-          <span class="text-xl tracking-wide">
-          <span className="font-semibold text-red-400 ">Be</span>Healthy
-          </span>
+                      <div className="text-red-400 ">
+                        <img src={Logo} alt="" className="w-8/12" />
+                      </div>
+                      <span class="text-xl tracking-wide">
+                        <span className="font-semibold text-red-400 ">Be</span>Healthy
+                      </span>
                     </a>
                   </div>
                   <div>
