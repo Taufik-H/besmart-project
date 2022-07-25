@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { Link } from 'react-scroll';
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2 ">
+    <div class="px-5 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-10 lg:px-2 ">
       <div class="relative flex items-center justify-between">
         <a
           href="/"

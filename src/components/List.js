@@ -273,7 +273,7 @@ export const List = ()=>{
         </div>
           
       </div>
-
+    {/* end list */}
     </div>
     </div>
 

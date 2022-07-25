@@ -1,11 +1,11 @@
 import Hati from './images/hati.png'
 export const About = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl   lg:py-20">
-        <div className="grid gap-10 md:grid-cols-2">
-          <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+      <div className="px-4 py-16 mx-auto sm:max-w-2xl md:max-w-screen lg:max-w-screen-xl md:px-0 lg:px-8 lg:py-20">
+        <div className="grid  md:grid-cols-2">
+          <div className="flex flex-col justify-center  lg:max-w-lg">
             <div className="text-xs font-bold text-red-400 uppercase tracking-widest p-2">about</div>
-            <div className="max-w-xl mb-6">
+            <div className=" mb-6">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl sm:leading-none">
                 Apa itu Hepatitis?
               </h2>
@@ -38,8 +38,8 @@ export const About = () => {
             </div>
           </div>
           <div className="flex items-center justify-center rounded-full  -mx-4 lg:pl-8 lg:bg-blue-300">
-            <div className="flex-col items-center px-2">
-             <img src={Hati} alt="" className=' mx-auto w-8/12 md:w-9/12 lg:w-1/2'/>
+            <div className="flex-col items-center px-2 flex justify-center">
+             <img src={Hati} alt="" className=' mx-auto w-9/12 mt-5 md:mt-0 md:w-9/12 lg:w-1/2'/>
             </div>
           </div>
         </div>
