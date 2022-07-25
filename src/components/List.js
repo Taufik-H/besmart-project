@@ -65,7 +65,7 @@ export const List = () => {
                       >
                         <Disclosure.Panel static className=" mt-3 px-14 ">
                           <div className="relative">
-                            Jenis ini umumnya ditularkan melalui cairan tubuh dari pengidap jenis ini, seperti darah, cairan Miss V, dan air mani.
+                          Dapat ditularkan melalui makanan atau air minum yang terkontaminasi feses dari pengidap hepatitis A.
                           </div>
                         </Disclosure.Panel>
                       </Transition>
@@ -101,9 +101,9 @@ export const List = () => {
 
                           </div>
                           <div className="">
-                            <p className="font bold text-gray-400 text-xs uppercase">HAV</p>
-                            <span className="font-bold text-md text-red-400">Hepatitis A</span>
-                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis A</p>
+                            <p className="font bold text-gray-400 text-xs uppercase">HBV</p>
+                            <span className="font-bold text-md text-red-400">Hepatitis B</span>
+                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis B</p>
                           </div>
                         </div>
 
@@ -127,8 +127,7 @@ export const List = () => {
                       >
                       <Disclosure.Panel className="mt-3 px-14">
                         <div className="">
-                          If you're unhappy with your purchase for any reason, email us
-                          within 90 days and we'll refund you in full, no questions asked.
+                        Jenis ini umumnya ditularkan melalui cairan tubuh dari pengidap jenis ini, seperti darah, cairan Miss V, dan air mani.
                         </div>
                       </Disclosure.Panel>
                       </Transition>
@@ -163,9 +162,9 @@ export const List = () => {
 
                           </div>
                           <div className="">
-                            <p className="font bold text-gray-400 text-xs uppercase">HAV</p>
-                            <span className="font-bold text-md text-red-400">Hepatitis A</span>
-                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis A</p>
+                            <p className="font bold text-gray-400 text-xs uppercase">HCV</p>
+                            <span className="font-bold text-md text-red-400">Hepatitis C</span>
+                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis C</p>
                           </div>
                         </div>
 
@@ -189,8 +188,7 @@ export const List = () => {
                       >
                           <Disclosure.Panel className="mt-3 px-14">
                         <div className="relative">
-                          If you're unhappy with your purchase for any reason, email us
-                          within 90 days and we'll refund you in full, no questions asked.
+                        Cairan tubuh, terutama melalui berbagi pakai jarum suntik dan hubungan seksual tanpa kondom dapat menularkan hepatitis C.
                         </div>
                       </Disclosure.Panel>
                       </Transition>
@@ -226,8 +224,8 @@ export const List = () => {
 
                           </div>
                           <div className="">
-                            <p className="font bold text-gray-400 text-xs uppercase">HAV</p>
-                            <span className="font-bold text-md text-red-400">Hepatitis A</span>
+                            <p className="font bold text-gray-400 text-xs uppercase">HDV</p>
+                            <span className="font-bold text-md text-red-400">Hepatitis D</span>
                             <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis A</p>
                           </div>
                         </div>
@@ -253,8 +251,7 @@ export const List = () => {
 
                       <Disclosure.Panel className="mt-3 px-14">
                         <div className="relative">
-                          If you're unhappy with your purchase for any reason, email us
-                          within 90 days and we'll refund you in full, no questions asked.
+                        Virus hepatitis D tidak bisa berkembang biak di dalam tubuh manusia tanpa adanya hepatitis B. Hepatitis D dapat ditularkan melalui darah dan cairan tubuh lainnya.
                         </div>
                       </Disclosure.Panel>
                       </Transition>
@@ -290,9 +287,9 @@ export const List = () => {
 
                           </div>
                           <div className="">
-                            <p className="font bold text-gray-400 text-xs uppercase">HAV</p>
-                            <span className="font-bold text-md text-red-400">Hepatitis A</span>
-                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis A</p>
+                            <p className="font bold text-gray-400 text-xs uppercase">HEV</p>
+                            <span className="font-bold text-md text-red-400">Hepatitis E</span>
+                            <p className="text-gray-700 text-xs font-semibold">Disebabkan oleh virus hepatitis E</p>
                           </div>
                         </div>
 
@@ -317,8 +314,7 @@ export const List = () => {
 
                       <Disclosure.Panel className="mt-3 px-14">
                         <div className="relative">
-                          If you're unhappy with your purchase for any reason, email us
-                          within 90 days and we'll refund you in full, no questions asked.
+                        Jenis ini banyak ditemui di lingkungan yang tidak memiliki sanitasi yang baik, akibat kontaminasi virus hepatitis E pada sumber air.
                         </div>
                       </Disclosure.Panel>
                       </Transition>
@@ -329,6 +325,7 @@ export const List = () => {
 
             </div>
             {/* end list */}
+            
           </div>
         </div>
 

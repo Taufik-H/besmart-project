@@ -115,7 +115,10 @@ export const Crd = () => {
         </div>
       </div>
     </div>
-  
+    <div className="px-44 py-10">
+
+<div className=" flex p-1 border-t-2  border-gray-200 h-1" data-aos="zoom-in"></div>
+</div>
     </>
   );
 };
