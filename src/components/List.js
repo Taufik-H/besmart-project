@@ -5,16 +5,16 @@ export const List = () => {
   return (
     <>
       <div className="mb-5 bg-gray-100 py-10 ">
-        <h1 className="text-3xl font-bold text-center text-gray-700 mb-5">Penyebab Hepatitis</h1>
+        <h1 className="text-3xl font-bold text-center text-gray-700 mb-5" data-aos="fade-up">Penyebab Hepatitis</h1>
         <div className="w-full flex justify-center">
 
-          <p className=" text-center w-9/12 lg:w-4/12">Penyakit Hepatitis terbagi menjadi
+          <p className=" text-center w-9/12 lg:w-4/12"data-aos="fade-up">Penyakit Hepatitis terbagi menjadi
             beberapa jenis dan dapat disebabkan oleh beberapa hal diantaranya</p>
         </div>
         <div className="container px-6 mx-auto mt-8">
           <div className="grid grid-cols-1 gap-2  lg:gap-4 w-full lg:w-9/12 mx-auto">
             {/* list */}
-            <div className=" rounded-lg shadow-lg bg-white ">
+            <div className=" rounded-lg shadow-lg bg-white " data-aos="fade-right">
               <div className="p-4">
                 <Disclosure className="w-full" >
                   {({ open }) => (
@@ -76,7 +76,7 @@ export const List = () => {
               </div>
 
             </div>
-            <div className=" rounded-lg shadow-lg bg-white">
+            <div className=" rounded-lg shadow-lg bg-white" data-aos="fade-right" data-aos-delay-="20" >
               <div className="p-4">
                 <Disclosure className="w-full" >
                   {({ open }) => (
@@ -138,7 +138,7 @@ export const List = () => {
               </div>
 
             </div>
-            <div className=" rounded-lg shadow-lg bg-white">
+            <div className=" rounded-lg shadow-lg bg-white" data-aos="fade-right" data-aos-delay-="40">
               <div className="p-4">
                 <Disclosure className="w-full" >
                   {({ open }) => (
@@ -201,7 +201,7 @@ export const List = () => {
               </div>
 
             </div>
-            <div className=" rounded-lg shadow-lg bg-white">
+            <div className=" rounded-lg shadow-lg bg-white" data-aos="fade-right" data-aos-delay-="60">
               <div className="p-4">
                 <Disclosure className="w-full" >
                   {({ open }) => (
@@ -264,7 +264,7 @@ export const List = () => {
               </div>
 
             </div>
-            <div className=" rounded-lg shadow-lg bg-white">
+            <div className=" rounded-lg shadow-lg bg-white" data-aos="fade-right" data-aos-delay-="80">
               <div className="p-4">
                 <Disclosure className="w-full" >
                   {({ open }) => (

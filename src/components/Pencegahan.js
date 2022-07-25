@@ -1,7 +1,7 @@
 export const Pencegahan = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <h5 className="mb-2 mb-8 text-4xl font-extrabold leading-none md:pl-2">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
+        <h5 className="text-center mb-8 text-4xl font-extrabold leading-none md:pl-2 " data-aos="flip-up">
           Penanganan dan {' '}
           <br className="hidden md:block" />
           Pengobatan{' '}
@@ -9,13 +9,14 @@ export const Pencegahan = () => {
            Hepatitis
           </span>
         </h5>
-        <div className="py-5 text-lg font-bold">Pengobatan</div>
-        <p className="text-md">Pengobatan hepatitis disesuaikan dengan jenis hepatitis dan tingkat keparahannya. Metode pengobatan untuk hepatitis yang dapat dilakukan dengan pemberian obat-obatan dan transplantasi hati.
-Beberapa obat yang digunakan untuk mengobati penyakit hepatitis antara lain interferon, imunosupresan, antivirus, dan cacing hati. Pemberian obat-obatan untuk penderita hepatitis juga harus berhati-hati, karena fungsi hati sedang terganggu.
-Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekomendasikan tindakan transplantasi hati. Melalui prosedur ini, organ hati pasien yang rusak akan diganti dengan organ hati yang sehat dari pendonor.</p>
-        <div className="py-5 text-lg font-bold">Pencegahan</div>
-        <div className="grid gap-3 row-gap-3 lg:grid-cols-3 ">
-          <ul className="space-y-3">
+        <div className="py-5 text-lg font-bold text-center" data-aos="flip-up">Pengobatan</div>
+        <p data-aos="fade-up" className="text-md text-center">Pengobatan hepatitis disesuaikan dengan jenis hepatitis dan tingkat keparahannya. Metode pengobatan untuk hepatitis yang dapat dilakukan dengan pemberian obat-obatan dan transplantasi hati.
+      Beberapa obat yang digunakan untuk mengobati penyakit hepatitis antara lain interferon, imunosupresan, antivirus, dan cacing hati. Pemberian obat-obatan untuk penderita hepatitis juga harus berhati-hati, karena fungsi hati sedang terganggu.
+        Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekomendasikan tindakan transplantasi hati. Melalui prosedur ini, organ hati pasien yang rusak akan diganti dengan organ hati yang sehat dari pendonor.</p>
+        <div className="py-5 text-lg font-bold text-center" data-aos="flip-up">Pencegahan</div>
+        <div className="grid gap-3 row-gap-3 lg:grid-cols-2 ">
+
+          <ul className="space-y-3 " data-aos="fade-right">
             <li className="flex items-start jus">
               <span className="mr-1">
                 <svg
@@ -71,7 +72,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
               Mencuci bahan makanan yang dikonsumsi, terutama kerang dan tiram, sayuran, serta buah-buahan
             </li>
           </ul>
-          <ul className="space-y-3">
+          <ul className="space-y-3 float-right" data-aos="fade-left">
             <li className="flex items-start">
               <span className="mr-1">
                 <svg

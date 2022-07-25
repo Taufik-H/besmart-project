@@ -7,20 +7,21 @@ export const Crd = () => {
   
 
     <div className="py-5">
-          <h1 className="text-3xl font-bold text-center text-gray-700 mb-5">Faktor & Resiko</h1>
+          <h1 className="text-3xl font-bold text-center text-gray-700 mb-5" data-aos="fade-up">Faktor & Resiko</h1>
       <div className="w-full flex justify-center">
 
-        <p className=" text-center w-9/12 lg:w-4/12">Beberapa faktor dibawah dapat menjadi risiko terjangkitnya peyakit hepatitis</p>
+        <p className=" text-center w-9/12 lg:w-4/12" data-aos="fade-up">Beberapa faktor dibawah dapat menjadi risiko terjangkitnya peyakit hepatitis</p>
       </div>
 
       <div className="px-4 py-16 mx-auto sm:max-w-2xl md:max-w-screen lg:max-w-screen-xl md:px-0 lg:px-8 lg:py-20">
         <div className="grid gap-5 md:grid-cols-3   sm:mx-auto lg:max-w-full">
-          <div className="overflow-hidden transition-shadow duration-300  ">
+          <div className="overflow-hidden transition-shadow duration-300  " data-aos="fade-up" data-aos-delay-="20">
             <a href="#" aria-label="Article">
               <img
                 src={imgri1}
                 className="object-cover w-full h-64 rounded"
                 alt=""
+               
               />
             </a>
             <div className="p-2">
@@ -78,7 +79,7 @@ export const Crd = () => {
               </svg>
             </div>
           </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded" data-aos="fade-up" data-aos-delay-="20">
             <a href="/" aria-label="Article">
               <img
                 src={imgri3}
