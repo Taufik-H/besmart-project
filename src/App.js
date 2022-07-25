@@ -8,7 +8,7 @@ import Sponsor from './components/Sponsor';
 import List from './components/List';
 import Crd from './components/Card';
 import Carousel from './components/Carousel';
-import Header from './components/Header';
+
 import Pencegahan from './components/Pencegahan';
 import Footer from './components/Footer';
 

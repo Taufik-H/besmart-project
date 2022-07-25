@@ -4,8 +4,8 @@ import r1 from './images/risiko1.png'
 import r2 from './images/risiko2.png'
 import r3 from './images/risiko3.png'
 export const Carousel = ()=>{
-    const ref = useRef(true)
-    const int = false
+    const ref = useRef(null)
+    const int = 0
     
     return(
         <> 

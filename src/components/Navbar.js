@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-scroll';
+import Logo from './images/logo.png'
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,17 +10,15 @@ export const Navbar = () => {
       <div class="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          aria-label="behealthy"
+          title="behealthy"
           class="inline-flex items-center"
         >
-          <div className="text-red-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-            </svg>
+          <div className="text-red-400 ">
+           <img src={Logo} alt="" className="w-8/12" />
           </div>
-          <span class="ml-2 text-xl tracking-wide">
-            Info <span className="font-semibold text-red-400 ">Sehat</span>
+          <span class="text-xl tracking-wide">
+          <span className="font-semibold text-red-400 ">Be</span>Healthy
           </span>
         </a>
         <ul class=" items-center hidden space-x-8 lg:flex">
@@ -99,15 +98,12 @@ export const Navbar = () => {
                       title="contactus"
                       class="inline-flex items-center"
                     >
-                      <div className="text-red-400">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                        </svg>
-                      </div>
-                      <span class="ml-2 text-xl tracking-wide">
-                        Info<span className="font-semibold text-red-400 ">Sehat</span>
-                      </span>
+                     <div className="text-red-400 ">
+           <img src={Logo} alt="" className="w-8/12" />
+          </div>
+          <span class="text-xl tracking-wide">
+          <span className="font-semibold text-red-400 ">Be</span>Healthy
+          </span>
                     </a>
                   </div>
                   <div>

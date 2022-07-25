@@ -6,6 +6,7 @@ import Sp04 from "./images/sp04.png"
 export const Sponsor = ()=>{
     return(
         <>
+
         <div className="flex justify-around md:justify-center items-center w-full h-40 bg-gray-200">
 
             <div className=" gap-4 w-9/12">
