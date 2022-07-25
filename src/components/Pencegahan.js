@@ -10,7 +10,7 @@ export const Pencegahan = () => {
           </span>
         </h5>
         <div className="py-5 text-lg font-bold">Pengobatan</div>
-        <p>Pengobatan hepatitis disesuaikan dengan jenis hepatitis dan tingkat keparahannya. Metode pengobatan untuk hepatitis yang dapat dilakukan dengan pemberian obat-obatan dan transplantasi hati.
+        <p className="text-md">Pengobatan hepatitis disesuaikan dengan jenis hepatitis dan tingkat keparahannya. Metode pengobatan untuk hepatitis yang dapat dilakukan dengan pemberian obat-obatan dan transplantasi hati.
 Beberapa obat yang digunakan untuk mengobati penyakit hepatitis antara lain interferon, imunosupresan, antivirus, dan cacing hati. Pemberian obat-obatan untuk penderita hepatitis juga harus berhati-hati, karena fungsi hati sedang terganggu.
 Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekomendasikan tindakan transplantasi hati. Melalui prosedur ini, organ hati pasien yang rusak akan diganti dengan organ hati yang sehat dari pendonor.</p>
         <div className="py-5 text-lg font-bold">Pencegahan</div>
@@ -19,7 +19,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start jus">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -37,7 +37,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -55,7 +55,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -75,7 +75,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -93,7 +93,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -111,7 +111,7 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
             <li className="flex items-start">
               <span className="mr-1">
                 <svg
-                  className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                  className="w-5 h-5 mt-px text-red-400"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
