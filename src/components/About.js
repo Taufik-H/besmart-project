@@ -1,4 +1,5 @@
 import Hati from './images/hati.png'
+import { Transition } from '@tailwindui/react';
 export const About = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-2xl md:max-w-screen lg:max-w-screen-xl md:px-0 lg:px-8 lg:py-20">
@@ -21,10 +22,10 @@ export const About = () => {
               </p>
             </div>
             <div>
-              <a
+              <button
                 href="/"
                 aria-label=""
-                className="inline-flex items-center bg-red-400 rounded-full py-2 px-6 hover:bg-gray-200  font-semibold transition-colors duration-200 text-white hover:text-red-600"
+                className="transition duration-150 ease-in-out inline-flex items-center bg-red-400 rounded-full py-2 px-6 font-semibold  text-white "
               >
                 Lebih lanjut 
                 <svg
@@ -34,12 +35,12 @@ export const About = () => {
                 >
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
           <div className="flex items-center justify-center rounded-full  -mx-4 lg:pl-8 lg:bg-blue-300">
             <div className="flex-col items-center px-2 flex justify-center">
-             <img src={Hati} alt="" className=' mx-auto w-9/12 mt-5 md:mt-0 md:w-9/12 lg:w-1/2'/>
+             <img src={Hati} alt="" className=' mx-auto w-9/12 mt-5 md:mt-0 md:w-9/12 lg:w-1/2 animate-pulse-slow'/>
             </div>
           </div>
         </div>

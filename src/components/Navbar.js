@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from 'react-scroll';
 import Logo from './images/logo.png'
+import { Transition } from "@tailwindui/react";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -70,7 +71,7 @@ export const Navbar = () => {
             aria-label="Open Menu"
             title="Open Menu"
             class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
-            onClick={() => setIsMenuOpen(true)}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg class="w-5 text-red-400" viewBox="0 0 24 24">
               <path
@@ -87,7 +88,19 @@ export const Navbar = () => {
               />
             </svg>
           </button>
-          {isMenuOpen && (
+          <Transition
+          show={isMenuOpen}
+          appear={true}
+          
+          enter="transition-opacity duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition-opacity duration-300"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+            
+            
             <div class="absolute top-0 left-0 w-full">
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
@@ -170,10 +183,14 @@ export const Navbar = () => {
                 </nav>
               </div>
             </div>
-          )}
+         
+          </Transition>
         </div>
       </div>
     </div>
+          
+
+          
   );
 };
 export default Navbar

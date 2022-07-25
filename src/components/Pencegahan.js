@@ -14,9 +14,9 @@ export const Pencegahan = () => {
 Beberapa obat yang digunakan untuk mengobati penyakit hepatitis antara lain interferon, imunosupresan, antivirus, dan cacing hati. Pemberian obat-obatan untuk penderita hepatitis juga harus berhati-hati, karena fungsi hati sedang terganggu.
 Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekomendasikan tindakan transplantasi hati. Melalui prosedur ini, organ hati pasien yang rusak akan diganti dengan organ hati yang sehat dari pendonor.</p>
         <div className="py-5 text-lg font-bold">Pencegahan</div>
-        <div className="grid gap-3 row-gap-3 lg:grid-cols-3">
+        <div className="grid gap-3 row-gap-3 lg:grid-cols-3 ">
           <ul className="space-y-3">
-            <li className="flex items-start">
+            <li className="flex items-start jus">
               <span className="mr-1">
                 <svg
                   className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -129,6 +129,8 @@ Bila hepatitis sudah menyebabkan kerusakan hati yang berat, dokter akan merekome
           </ul>
         </div>
       </div>
+
+      
     );
   };
   export default Pencegahan

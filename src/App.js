@@ -1,4 +1,4 @@
-import logo from './logo.png';
+
 import './App.css';
 import About from './components/About';
 import './App.css'
@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Sponsor from './components/Sponsor';
 import List from './components/List';
 import Crd from './components/Card';
-import Carousel from './components/Carousel';
+import Subs from './components/Subs';
 
 import Pencegahan from './components/Pencegahan';
 import Footer from './components/Footer';
@@ -22,8 +22,8 @@ function App() {
       <About></About>
       <List></List>
       <Crd></Crd>
-      <Carousel></Carousel>
       <Pencegahan></Pencegahan>
+     <Subs></Subs>
       <Footer></Footer>
     </>
   );
